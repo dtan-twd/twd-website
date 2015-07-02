@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Footer style goes here */
+footer {
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	background: rgba(255,255,255,0.3);
+	height: 50px;
+	transition: height 0.3s;
+	z-index: 6;
+}
+
+footer .footer-img {
+	position: absolute;
+	top: 0%;
+	max-width: none;
+	height: 50px;
+	transition: height 0.3s;
+}
+
+footer .info {
+	left: 0%;
+}
+
+footer .logo {
+	right: 0%;
+}
+
+footer > span {
+	margin-left: 70px;
+	color: #fff;
+	font-family: 'latolight', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 40%;
+}
+
+footer .website-description {
+	width: 80%;
+	margin: 60px 0 0 60px;
+}
+
+.website-description p {
+	font-family: 'latolight', sans-serif;
+	margin-top: 16px;
+	line-height: 1.4;
+}
+
+.website-description p:nth-child(6) {
+	margin-top: 0px;
+	margin-bottom: 16px;
+}
+
+.website-description span {
+	display: block;
+	font-weight: bold;
+	font-family: 'latoregular', sans-serif;
+	letter-spacing: 1px;
+}
+
+/* Hover style */
+footer.hovered {
+	height: 40%;
+	z-index: 2;
+}
+
+footer.hovered .website-description {
+	display: block;
+}
+
+footer.hovered img {
+	height: 50px;
+}
+
+footer.hovered > span {
+	display: none;
+	margin-left: 135px;
+}
+/* End of Hover style */

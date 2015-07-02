@@ -1,0 +1,26 @@
+Home (Showcase slideshow)
+
+Course
+
+Schedule
+
+Student
+
+Showcase 
+
+Resources -> Textbook/Computer Programs we use
+ - Textbook/Programs
+ - Servers
+ - Web Links
+ - Links to BCIT support services
+
+Contact (Faculty, Administration, Misc Student Benefits contact)
+
+
+1. Home
+2. Course
+3. Showcase
+4. Contact
+5. Resources
+6. Schedule
+7. Student

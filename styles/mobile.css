@@ -1,0 +1,868 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-height: 768px){
+	footer {
+		position: static;
+		height: auto;
+		clear: both;
+	}
+	
+	footer .footer-img {
+		position: static;
+		max-width: none;
+		height: 50px;
+	}
+	
+	footer .logo {
+		float: right;
+	}
+	
+	footer > span {
+		display: none;
+	}
+	
+	footer .website-description {
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width:1360px) {
+	table.calendar {
+		width: 80%;	
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width: 1280px){
+	nav a:hover,
+	nav a:focus,
+	nav a:active {
+		background-color: rgba(169,212,216,0.6);
+	}
+	
+	.pg-course nav li:nth-child(2) a,
+	.pg-schedule nav li:nth-child(3) a,
+	.pg-students nav li:nth-child(4) a,
+	.pg-showcase nav li:nth-child(5) a,
+	.pg-resources nav li:nth-child(6) a,
+	.pg-contact nav li:last-child a {
+		background: rgba(169,212,216,0.6);
+	} 
+	
+	nav.displayMobileMenu a {
+		display: block;
+		opacity: 1;
+	}
+	
+	.pg-home .program-description {
+		width: 80%;
+	}
+	
+	.pg-students section > div:last-child > div > div > a{
+		font-size: 12px;	
+	}
+	
+	.pg-contact .rjacklin-profile a[href*="mailto"],
+	.pg-contact .mwhyte-profile a[href*="mailto"] {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width:1230px) {
+	.pg-contact a[href*="mailto"],
+	.pg-contact .rjacklin-profile a[href*="mailto"],
+	.pg-contact .mwhyte-profile a[href*="mailto"] {
+		font-size: 12px;
+	}
+
+	.pg-contact section > div:last-child {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 1225px){
+	header h1 {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width:1120px) {
+	.pg-showcase .showcase-slideshow {
+		background-image: none;
+	}
+
+	.pg-showcase .button.left {
+		margin-left: -39px;
+	}
+	
+	.pg-showcase .button.right {
+		margin-left: 10px;
+	}
+	
+	.pg-contact section > div:last-child > div > div {
+		width: calc((100% - 3%) / 2);
+	}
+	
+	.pg-contact section > div:last-child > div > div:nth-child(3n) {
+		margin-right: 3%;
+	}
+	
+	.pg-contact section > div:last-child > div > div:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width:1105px) {
+	.pg-contact .contacts-area > div:not(:last-child) > div > a {
+		height: 40px;
+		background-size: 40px;
+		padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 1064px) {
+	section > div:last-child {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.pg-showcase .showcase-slideshow {
+		width: 584px;
+		height: 346px;
+	}
+	
+	.pg-showcase section > div:last-child div.slideshow-description {
+		top: 115%;
+	}
+	
+	.pg-students section > div:last-child > div > div {
+		width: calc((100% - 3%) / 2);
+	}
+	
+	.pg-students section > div:last-child > div > div:nth-child(3n) {
+		margin-right: 3%;
+	}
+	
+	.pg-students section > div:last-child > div > div:nth-child(2n) {
+		margin-right: 0;
+	}
+	
+	.pg-resources section > div:last-child {
+		margin-left: 70px;	
+	}
+}
+
+@media only screen and (max-width: 1070px){
+	header {
+		height: 60px;
+	}
+
+	nav li {
+		width: 60px;
+		height: 60px;
+	}
+	
+	nav a {
+		padding-top: 70px;
+	}
+
+	header h1 {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width:1057px) {
+	.pg-schedule div > h2 {
+		margin-top: 5%;
+	}
+
+	table.calendar {
+		width: 80%;	
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	body {
+		background-size: 1000%;
+	}
+	
+	nav a {
+		background-color: rgba(169,212,216,0.15);
+		opacity: 1;
+	}
+	
+	nav a:hover,
+	nav a:focus,
+	nav a:active {
+		background-color: rgba(169,212,216,0.6);
+	}
+		
+	.pg-course section > div:last-child > div > div:last-child {
+		width: 100%;
+	}
+	
+	.pg-course section > div:last-child p {
+		width: 100%;
+	}
+	
+	footer {
+		position: static;
+		height: auto;
+		clear: both;
+	}
+	
+	footer .footer-img {
+		position: static;
+		max-width: none;
+		height: 50px;
+	}
+	
+	footer .logo {
+		float: right;
+	}
+	
+	footer > span {
+		display: none;
+	}
+	
+	footer .website-description {
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width:1015px) {
+	.pg-course section > div:last-child > div > div:first-child {
+		margin-bottom: 20px;
+		float: none;
+	}
+	
+	.pg-course section > div:last-child {
+		margin-left: 50px;	
+	}
+
+	.pg-contact section > div:first-child h1 {
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width:1000px) {
+	.pg-contact .contacts-area ul,
+	.pg-contact .contacts-area a,
+	.pg-contact .contacts-area h3 {
+		min-width: 148px;
+	}
+}
+
+@media only screen and (max-width:950px) {
+	.pg-showcase .button {
+		top: 100%;
+		margin-top: 5px;
+	}
+	
+	.pg-showcase .button.left {
+		margin-left: 0px;
+	}
+	
+	.pg-showcase .button.right {
+		margin-left: -29px;
+	}
+	
+	.pg-showcase section > div:last-child div.slideshow-description {
+		width: 80%;
+		margin: 10px auto;
+		float: none;
+		position: static;
+	}
+}
+
+@media only screen and (max-width:930px) {
+	.pg-contact section > div:last-child > div > div {
+		width: calc((100% - 3%));
+	}
+	
+	.pg-contact section > div:last-child > div > div:nth-child(3n) {
+		margin-right: 3%;
+	}
+	
+	.pg-contact section > div:last-child > div > div:nth-child(2n) {
+		margin-right: 3%;
+	}
+}
+
+@media only screen and (max-width: 930px) {
+	.pg-showcase section > div:last-child {
+		margin-left: 10px;
+	}
+	
+	.pg-showcase .showcase-slideshow,
+	.showcase-slideshow .laptop_screen {
+		height: 320px;
+		background-image: none;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 910px){
+	header {
+		height: 60px;
+	}
+	
+	header h1 {
+		line-height: 60px;
+	}
+	
+	nav li {
+		width: 60px;
+		height: 60px;
+	}
+	
+	nav a {
+		font-size: 14px;
+	}
+	
+	.desktop-calendar {
+		display: none;
+	}
+	
+	.sidebar .desktop-schedule {
+		display: none;
+	}
+	
+	.sidebar .mobile-schedule {
+		display: block;
+	}
+	
+	.mobile-calendar {
+		display: block;
+	}
+	
+	.mobile-calendar span {
+		display: block;
+	}
+
+	.pg-showcase section > div:last-child div.slideshow-description {
+		margin-top: 30px;
+	}
+	
+	.pg-showcase .button {
+		margin-top: 25px;
+	}
+}
+
+@media only screen and (max-width: 880px){
+	.pg-showcase .showcase-slideshow,
+	.showcase-slideshow .laptop_screen,
+	.showcase-slideshow .browser_screen,
+	.showcase-slideshow .browser_screen img {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 860px){
+	.pg-home .button.left {
+		margin-left: 0px;
+	}
+	
+	.pg-home .button.right {
+		margin-left: -29px;
+	}
+}
+
+@media only screen and (max-width: 840px){
+	header {
+		height: 60px;
+	}
+	
+	header h1 {
+		line-height: 60px;
+	}
+	
+	nav li {
+		width: 60px;
+		height: 60px;
+	}
+	
+	.pg-resources section > div:first-child h1 {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 820px){
+	.pg-resources section > div:last-child {
+		padding-left: 0;
+		margin-left: 30px;
+	}
+	
+	.pg-students section > div:last-child > div > div {
+		width: calc((100% - 3%));
+	}
+	
+	.pg-students section > div:last-child > div > div:nth-child(3n) {
+		margin-right: 3%;
+	}
+	
+	.pg-students section > div:last-child > div > div:nth-child(2n) {
+		margin-right: 3%;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.pg-home .button.left {
+		margin-left: 29px;
+	}
+	
+	.pg-home .button.right {
+		margin-left: -58px;
+	}
+}
+
+@media only screen and (max-width: 790px){
+	.pg-home .welcome-message div {
+		width: 100%;
+		margin-left: 10%;
+	}
+
+	.pg-home .slideshow {
+		background-image: none;
+		padding: 0;
+		margin: 0 auto;
+		width: 100%;
+		height: 346px;
+	}
+	
+	.pg-home .slideshow p {
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+	.pg-home .program-description {
+		width: 100%;
+		margin: 50px auto;
+	}
+	
+	.pg-home .button.left {
+		margin-left: 10px;
+	}
+	
+	.pg-home .button.right {
+		margin-left: -39px;
+	}
+}
+
+@media only screen and (max-width: 775px){
+	header h1 {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 710px){
+	header button {
+		float: left;
+		display: block;
+		background: transparent;
+		border: transparent;
+		background-image: url(../images/2015twd-compass-website-icon-Menu.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 60px;
+		height: 60px;
+		text-indent: 200%;
+		cursor: pointer;
+		position: relative;
+		z-index: 3;
+		overflow: hidden;
+	}
+	
+	nav {
+		position: absolute;
+		top: 60px;
+		-webkit-transform: translateX(-155px);
+		transform: translateX(-155px);
+		transition: transform 0.3s;
+	}
+	
+	nav li,
+	nav a {
+		float: none;
+	}
+
+	nav a {
+		display: block;
+		padding-top: 20px;
+		padding-left: 70px;
+		height: 60px;
+	}
+	
+	nav.displayMobileMenu {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	
+	nav.displayMobileMenu a {
+		display: block;
+		opacity: 1;
+	}
+	
+	.pg-home .welcome-message {
+		margin-top: 10px;
+		margin-left: 10%;
+	}
+	
+	.pg-home .welcome-message div {
+		margin: 10px auto;
+	}
+	
+	.pg-course nav li:nth-child(2) a,
+	.pg-schedule nav li:nth-child(3) a,
+	.pg-students nav li:nth-child(4) a,
+	.pg-showcase nav li:nth-child(5) a,
+	.pg-resources nav li:nth-child(6) a,
+	.pg-contact nav li:last-child a {
+		background: rgba(255,255,255,0.3); /* May change later */
+		opacity: 1;
+	}
+
+	section > div:first-child {
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 10px;
+		float: none;
+	}
+	
+	.page-title > div {
+		width: 95%;
+	}
+	
+	.pick-intake select {
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+	
+	section > div:first-child h1 {
+		font-size: 20px;
+	}
+	
+	section > div:nth-child(2) {
+		position: fixed;
+		-webkit-transform: translateX(-260px);
+		transform: translateX(-260px);
+		transition: transform 0.5s;
+	}
+	
+	.pg-home .slideshow {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
+	}
+	
+	section > div:nth-child(2).opened {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
+	}
+	
+	.sidebar button {
+		display: block;
+	}
+	
+	section > div:last-child { 
+		width: calc(100% - 50px);
+		margin: 50px 0 50px 5px;
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
+		transition: transform 0.5s;
+		float: right;
+	}
+	
+	section > div:last-child.slideRight {
+		-webkit-transform: translateX(260px);
+		transform: translateX(260px);
+	}
+	
+	section > div:last-child > div {
+		width: 100%;
+	}
+	
+	.pg-course section > div:last-child > div > div:first-child {
+		width: 100%;
+	}
+	
+	.pg-course section > div:last-child > div > div:last-child {
+		width: 100%;
+		margin-top: 50px;
+	}
+	
+	.pg-students section > div:last-child > div {
+		width: 100%;
+	}
+	
+	.pg-students section > div:last-child > div > div {
+		width: calc((100% - 3%) / 2);
+		float: left;
+	}
+
+	.pg-students section > div:last-child > div > div:nth-child(3n) {
+		margin-right: 3%;
+	}
+	
+	.pg-students section > div:last-child > div > div:nth-child(2n) {
+		margin-right: 0;
+	}
+	
+	.pg-resources .button.left {
+		margin-left: -5px;
+	}
+	
+	.pg-resources .button.right {
+		margin-left: -25px;
+	}
+	
+	.pg-resources #tools > div {
+		float: left;
+		margin-right: 70px;
+		margin-left: 20px;
+	}
+
+	.pg-resources .button.left {
+		margin-left: -13px;
+	}
+	
+	.pg-resources .button.right {
+		margin-left: -14px;	
+	}
+	
+	.pg-contact section > div:last-child > div {
+		width: 100%;
+	}
+	
+	.pg-contact section > div:last-child > div > div {
+		width: calc((100% - 3%) / 2);
+		float: left;
+	}
+	
+	.pg-contact section > div:last-child > div > div:nth-child(3n) {
+		margin-right: 3%;
+	}
+	
+	.pg-contact section > div:last-child > div > div:nth-child(2n) {
+		margin-right: 0;
+	}
+	
+	.pg-contact a[href*="mailto"],
+	.pg-contact .rjacklin-profile a[href*="mailto"],
+	.pg-contact .mwhyte-profile a[href*="mailto"] {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 695px){
+	.pg-home .slideshow,
+	.pg-home .laptop_screen {
+		left: 0%;
+		margin: 0;
+	}
+	
+	.pg-home .slideshow,
+	.slideshow .laptop_screen,
+	.slideshow .browser_screen {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.browser_screen img {
+		width: 100%;
+	}
+
+	.pg-home .slideshow {
+		height: 320px;
+	}
+
+	.slideshow .laptop_screen {
+		background-image: none;
+		height: 320px;
+	}
+
+	.pg-home .button {
+		top: 115%;
+	}
+	
+	.pg-home .slideshow p {
+		margin-top: 50px;
+	}
+	
+	.pg-home .program-description {
+		margin: 80px auto;
+	}
+}
+
+@media only screen and (max-width: 660px){
+	.pg-home section > div:first-child {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.pg-resources .book-sideshow img,
+	.program-sideshow img,
+	.pg-resources .book-title,
+	.pg-resources .program-title {
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 590px){
+	.pg-home .button {
+		top: 110%;
+	}
+	
+	.pg-home .slideshow p {
+		margin-top: 20px;
+	}
+	
+	.pg-home .program-description > div {
+		float: none;
+	}
+	
+	.program-description .display-title,
+	.program-description .description {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.pg-students section > div:last-child > div > div {
+		width: calc((100% - 3%));
+		float: none;
+	}
+
+	.pg-students section > div:last-child > div > div:nth-child(3n) {
+		margin-right: 3%;
+	}
+	
+	.pg-students section > div:last-child > div > div:nth-child(2n) {
+		margin-right: 3%;
+	}
+	
+	.pg-showcase .button {
+		margin-top: -5px;
+	}
+	
+	.pg-showcase section > div:last-child div.slideshow-description {
+		margin-top: 0px;
+	}
+	
+	.pg-contact section > div:last-child > div > div {
+		width: calc((100% - 3%));
+		float: none;
+		margin-bottom: 30px;
+	}
+	
+	.pg-contact section > div:last-child > div > div:nth-child(3n) {
+		margin-right: 3%;
+	}
+	
+	.pg-contact section > div:last-child > div > div:nth-child(2n) {
+		margin-right: 3%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.pg-home .welcome-message {
+		margin-left: 0;
+	}
+
+	.pg-home .welcome-message div {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	.pg-home .welcome-message h1 {
+		font-size: 20px;
+	}
+
+	.pg-home .slideshow,
+	.slideshow .laptop_screen {
+		height: 250px;
+	}
+}
+
+@media only screen and (max-width: 440px){
+	.pg-home .slideshow p {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.pg-showcase section > div:last-child {
+		width: 100%;
+		margin-top: 125px;
+	}
+	
+	.pg-showcase .button {
+		margin-top: -65px;
+	}
+	
+	.pg-showcase section > div:last-child div.slideshow-description {
+		margin-top: -65px;
+	}
+}
+
+@media only screen and (max-width: 350px){
+	header {
+		height: 50px;
+	}
+
+	header h1 {
+		margin-right: 0;
+		line-height: 50px;
+	}
+	
+	header button {
+		width: 50px;
+		height: 50px;
+	}
+	
+	nav {
+		top: 50px;
+	}
+	
+	nav li {
+		width: 50px;
+		height: 50px;
+	}
+	
+	nav a {
+		padding-top: 15px;
+		padding-left: 60px;
+		height: 50px;
+	}
+	
+	.pg-home .button {
+		top: 90%;
+	}
+	
+	.pg-home .slideshow p {
+		width: 70%;
+		margin-top: -50px;
+	}
+	
+	.mobile-calendar tr:first-child th {
+		font-size: 10px;
+	}
+	
+	.mobile-calendar td {
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	header h1 {
+		font-size: 14px;
+	}
+}

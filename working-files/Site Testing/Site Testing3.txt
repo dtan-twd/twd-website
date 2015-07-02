@@ -1,0 +1,70 @@
+Asked his name twice, still didn't get it
+
+
+1) Doesn't work well, simple enough to work, could've been more polished
+
+1a) Uses everyday
+
+2) Desktop
+   Cellphone for personal uses
+
+3) at least 5 hours 
+
+3a) Study, Personal stuff like cheking emails and social network
+
+4) network administrator for 12 years, had own company for 6 years
+
+5) Not so much, but likes to see new features
+
+6) Not so much
+
+
+
+
+
+1a) Scans the front page
+    Went to schedule, scans the calendar
+    Looking for today (current day) feature
+    Clicking on the calendar date to get further info
+    Went to february
+    Went to courses
+    Does not find it until being directed by Scarlett
+
+1b) Scrolls up and down on the first page
+    Does not notice the mobile menu icon
+    Presses it, ponders the option, does not see the student immediately
+    Clicked intake for students
+    Searches for the name
+    Found the info
+
+2) Front page
+   Goes to course
+   Scans the navigation and does not find relevant page
+   Dismisses the information icon on the bottom
+
+3) Goes to home to search
+   Goes to showcase
+   Looks through the sidebar menu
+   Clicks intake
+   Goes to resource
+   Went back to showcase
+
+4) After understanding the info button from the 3rd task, goes straight to official bcit site
+   Came back to the website, went to contact
+   Ctrl + F search for program administrator,
+   Found the info
+   Does not notice the sidebar until search function directs him to the sidebar
+
+5) Clicks on faculty
+   Scans the screen
+   Found michael
+   Wonders about small icons on the contact page
+
+6) Scans the navigation bar
+   After a while, found the course
+   Immediately switches to schedule page
+   Went back to course and found the 'project sidebar menu
+
+7) Went to contact
+   Searches each navigation and found resource
+   Found server on the sidebar menu
