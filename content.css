@@ -1,0 +1,920 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Main Content style goes here */
+
+body {
+	background-image: url(../images/2015twd-compass-website-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1, h2, h3, h4, li, p, a {
+	color: #fff;
+}
+
+h1, h2  {
+	font-family: 'latoregular', sans-serif;
+}
+
+h3, h4 {
+	font-family: 'latolight', sans-serif;
+}
+
+li, p, a {
+	font-family: 'latothin', sans-serif;
+}
+
+
+
+/* Page General Rules */
+section div {
+	float: left;
+}
+
+
+section > div:first-child h1 {
+	font-size: 25px;
+}
+
+.page-title > div {
+	width: 60%;
+}
+
+.pick-intake h1 {
+	float: left;
+}
+
+.pick-intake select {
+	background-image: url(../images/2015twd-compass-website-icon-DropDown.png);
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	background-position: center right;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	height: 32px;
+	width: 170px;
+	background-color: rgba(255,255,255,0.1);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	float: right;
+	border: none;
+	cursor: pointer;
+}
+
+section > div:nth-child(2) {
+	width: 250px;
+	padding: 0 0 0 40px;
+}
+
+
+.sidebar ul {
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+.sidebar a {
+	font-size: 18px;
+	text-decoration: none;	
+}
+
+.sidebar li {
+	margin-bottom: 20px;	
+}
+
+.sidebar li:first-child {
+	margin-top: 20px;	
+}
+
+
+.sidebar ul ul {
+	list-style-position: inside;
+}
+
+.sidebar ul ul li {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+section > div:last-child{
+	width: calc((100% - 300px) - 85px);
+	margin-top: 80px;
+	margin-left: 85px;
+}
+
+section > div:last-child > div{
+	width: 80%;
+	margin-bottom: 50px;
+}
+
+.pg-course .sidebar li:last-child{
+	padding-top: 20px;
+	padding-bottom: 40px;
+} 
+
+
+.pg-course .sidebar li:last-child{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.pg-students .sidebar li:last-child{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.pg-showcase .sidebar li:last-child{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.pg-contact .sidebar li:last-child{
+	padding-top: 20px;
+
+}
+
+
+
+section > div:first-child {
+	float: right;
+	width: 60%;
+	margin-top: 3%;
+	margin-right: 10%;
+	margin-left: 0;
+}
+
+
+
+.button {
+	position: absolute;
+	background: transparent;
+	border: transparent;
+	text-indent: 150%;
+	width: 29px;
+	height: 60px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.button.left {
+	left: 0%;
+	margin-left: -29px;
+	background-image: url(../images/2015twd-compass-website-icon-ArrowLeft.png);
+}
+
+.button.right {
+	left: 100%;
+	background-image: url(../images/2015twd-compass-website-icon-ArrowRight.png);
+}
+/* End of page general rules*/
+
+
+
+/* Index Style */
+.pg-home div {
+	float: none;
+}
+
+.pg-home .welcome-message {
+	width: 100%;
+	margin-left: 0;
+}
+
+.pg-home .welcome-message div {
+	width: 50%;
+	margin: 50px auto 0 auto;
+}
+
+.pg-home .slideshow {
+	width: 775px;
+	height: 454px;
+	background-image: url(../images/2015twd-compass-website-mackbookair.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 20px auto;
+	padding: 27px;
+	position: relative;
+}
+
+.pg-home .slideshow p {
+	text-align: right;
+	margin-top: 70px;
+}
+
+.slideshow .laptop_screen {
+	width: 584px;
+	height: 346px;
+	background-image: url(../images/2015twd-compass-website-Browser-.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 10px auto 0 auto;
+	padding: 8px 0;
+	position: relative;
+}
+
+.pg-home .button {
+	top: 50%;
+	margin-top: -30px;
+}
+
+/* please make the slideshow image 584px by 320px */
+.slideshow .browser_screen {
+	width: 584px;
+	height: 320px;
+	margin: 10px auto 0 auto;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin-top: 18px;
+	overflow: hidden;
+}
+
+.browser_screen img {
+	position: absolute;
+	top: 0%;
+}
+
+.pg-home .program-description {
+	width: 50%;
+	margin: 40px auto;
+}
+
+.pg-home .program-description > div {
+	float: left;
+	padding: 20px;
+}
+
+.program-description .display-title {
+	width: 40%;
+}
+
+.program-description .description {
+	width: 60%;
+}
+
+.pg-home .program-description h2 {
+	font-size: 20px;
+}
+
+.pg-home .program-description h3 {
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.pg-home .program-description p {
+	margin-bottom: 10px;
+}
+
+.pg-home .button.left {
+	left: 0%;
+	margin-left: -29px;
+}
+
+.pg-home .button.right {
+	left: 100%;
+}
+/* End of Index Style */
+
+
+
+/* Course Style */
+.pg-course section > div:last-child {
+	position: relative;
+}
+
+.pg-course .button {
+	top: 50px;
+}
+
+.pg-course .button.left {
+	margin-left: -59px;
+}
+
+.pg-course .button.right {
+}
+
+.pg-course section > div:last-child > div {
+	height: 50%;
+}
+
+.pg-course section > div:last-child > div > div:first-child {
+	width: 25%;
+}
+
+.pg-course section > div:last-child > div > div:last-child {
+	width: 65%;
+}
+
+.pg-course section > div:last-child h2 {
+	font-size: 20px;
+}
+
+.pg-course section > div:last-child h3 {
+	margin-top: 10px;
+}
+
+.pg-course section > div:last-child p {
+	font-size: 20px;
+}
+/* End of Course Style */
+
+
+
+/* Schedule Style */
+.pg-schedule section > div:last-child > div > div {
+	width: 100%;
+}
+/* calendar */
+table.calendar {
+	border-left: 1px solid #999;
+	width: 100%;
+}
+
+tr.calendar-row:not(:first-child) {
+	height: 100px;
+}
+
+td.calendar-day {
+	min-height: 80px;
+	font-size: 14px;
+	position: relative;
+} 
+	
+* html div.calendar-day {
+	height: 80px; 
+}
+
+td.calendar-day:hover {
+	background:#999;
+}
+
+td.calendar-day-np {
+	background: #eee;
+	min-height: 80px;
+} 
+
+* html div.calendar-day-np {
+	height: 80px;
+}
+
+td.calendar-day-head {
+	background: #ccc;
+	font-weight: bold;
+	text-align: center;
+	width: calc(100% / 7);
+	padding: 5px;
+	border-bottom: 1px solid #999; 
+	border-top: 1px solid #999; 
+	border-right: 1px solid #999;
+}
+
+div.day-number {
+	background: #999;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin: -5px -5px 0 0;
+	width: 20px;
+	text-align: center;
+}
+
+/* shared */
+td.calendar-day, 
+td.calendar-day-np {
+	width: 120px;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.pg-schedule section > div:last-child  {
+	position: relative;
+}
+
+.month {
+	margin-top: 100px;
+}
+
+.month.left {
+	margin-left: -39px;
+}
+
+.month.right {
+	margin-left: 10px;
+}
+
+/* End of Schedule Style */
+
+
+
+/* Student Style */
+.pg-students section > div:last-child > div{
+	width: 80%;
+}
+
+.pg-students section > div:last-child > div > div {
+	width: calc((100% - 6%) / 3);
+	margin-right: 3%;
+	margin-bottom: 4%;
+}
+
+.pg-students section > div:last-child > div > div:nth-child(3n) {
+	margin-right: 0;
+}
+
+.pg-students section > div:last-child > div > div h3 {
+	padding: 16px;
+	background-color: rgba(225, 225, 225, 0.2);
+	font-size: 18px;
+	text-align: center;
+}
+
+.pg-students section > div:last-child > div > div ul {
+	padding: 20px 10px;
+	background-color: rgba(0,0,0,0.1);
+	min-height: 100px;
+}
+
+.pg-students section > div:last-child > div > div li {
+	background-image: url(../images/2015twd-compass-website-icon-chain2.png);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	margin-bottom: 10px;
+	text-indent: 20px;
+}
+
+.pg-students section > div:last-child > div > div a {
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.pg-students section > div:last-child > div > div > a {
+	height: 30px;
+	background: rgba(225, 225, 225, 0.2);
+	background-image: url(../images/2015twd-compass-website-icon-email.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	padding: 6px 0;
+	padding-left: 40px;
+	width: 100%;
+	display: block;
+}
+
+.pg-students section > div:last-child > div > div a:hover,
+.pg-students section > div:last-child > div > div a:focus,
+.pg-students section > div:last-child > div > div a:active {
+	text-decoration: underline;
+}
+
+/* End of Student Style */
+
+
+/* Showcase Style */
+.pg-showcase section > div:last-child div {
+	float: none;
+}
+
+.pg-showcase .showcase-slideshow {
+	width: 775px;
+	height: 454px;
+	background-image: url(../images/2015twd-compass-website-mackbookair.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 20px auto;
+	padding: 27px;
+	position: relative;
+}
+
+.showcase-slideshow .laptop_screen {
+	width: 584px;
+	height: 346px;
+	background-image: url(../images/2015twd-compass-website-Browser-.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 10px auto 0 auto;
+	padding: 8px 0;
+	position: relative;
+}
+
+.showcase-slideshow .browser_screen {
+	width: 584px;
+	height: 320px;
+	margin: 10px auto 0 auto;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin-top: 18px;
+	overflow: hidden;
+}
+
+.browser_screen img {
+	position: absolute;
+	top: 0%;
+}
+
+.pg-showcase .button {
+	top: 50%;
+	margin-top: -30px;
+}
+
+.pg-showcase .slideshow-description {
+	margin-top: 80px;
+	width: 100%;
+}
+
+.pg-showcase section > div:last-child > div > div:last-child > div {
+	float: left;
+}
+
+.slideshow-description .display-title {
+	width: 30%;
+}
+
+.slideshow-description .description {
+	width: 70%;
+}
+/* End of Showcase Style */
+
+/* Resources Style */
+
+/* Resources Sidebar */
+
+.pg-resources .sidebar a {
+	font-size: 20px;
+	text-decoration: none;	
+}
+
+.pg-resources .sidebar li a:hover, .sidebar li a:active, .sidebar li a:focus {
+	background-color: none;
+}
+
+.pg-resources .sidebar li {
+	border-bottom: 3px solid #9fa899;
+	padding-top: 20px;
+	font-size: 16px;
+	margin: 0;
+	padding-bottom: 20px;	
+}
+
+.pg-resources .sidebar > ul > li:nth-child(2) {
+	padding-bottom: 0;
+	padding-top: 20px;
+}
+
+.pg-resources .sidebar > ul > li:nth-child(3){
+	padding-top: 20px;
+	padding-bottom: 0;
+
+}
+
+.pg-resources .sidebar  ul {
+	list-style-type: none;	
+	margin-top: 20px;
+}
+
+.pg-resources .sidebar > ul > li {
+	border-bottom: 1px solid #8e9582;
+	padding-top: 0;
+}
+
+.pg-resources .side-bar > ul > li:first-child {
+	border-bottom: 1px solid #8e9582;	
+
+}
+
+
+.pg-resources section > div:nth-child(2) {
+	float: left;
+	width: 250px;
+	padding: 2% 0 0 0px;
+	background-color: #9fa899;
+	height: 100%;
+	text-indent: 40px;
+}
+
+.pg-resources .sidebar li:last-child {
+	border: none;
+	margin: 0;
+}
+
+.pg-resources .sidebar a[href*="#tools"], .sidebar a[href*="#links"], .sidebar a[href*="#server-access"] {
+	padding: 0px 0 0px 15%;
+	
+
+}
+
+.pg-resources .sidebar ul ul {
+	width: 250px;
+	background-color: #8e9582;
+
+}
+
+.pg-resources section > div:last-child{
+	width: calc((100% - 300px) - 85px);
+	padding-left: 85px;
+}
+
+
+.pg-resources section > div:last-child > div{
+	width: 80%;
+}
+
+/* End Sidebar */
+
+.pg-resources .book-sideshow img, .program-sideshow img {
+	margin: 0 20% 0 80%;;
+}
+
+.pg-resources .program-sideshow img {
+	margin-top: 20%;
+}
+.pg-resources .book-title {
+	margin-top: 5%;
+	margin-left: 80%;
+}
+
+.pg-resources .program-title {
+	margin-top: 12%;
+	margin-left: 80%;
+}
+
+.pg-resources .book-sideshow .button:first-of-type {
+	margin-right: 200px;
+}
+
+.pg-resources #links div {
+	width: 250px;
+	margin: 3% 3% 3% 3%;
+}
+
+.pg-resources #links h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 20px 0px 20px 0px; 
+	background-color: #9ca094;
+	width: 250px;	
+	text-align: center;
+}
+
+.pg-resources #links div ul {
+	background-color: rgba(0,0,0,0.1);
+	padding: 20px 10px 0 10px;	
+}
+
+
+.pg-resources #links div li{
+	padding-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: url(../images/bullet-point.png);
+	background-size: 10px;
+	background-repeat: no-repeat;
+	text-indent: 20px;
+}
+
+.pg-resources #links div a {
+	background-image: url(../images/2015twd-compass-website-icon-chain1.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	background-color: rgba(225,225,225,0.2);
+	padding: 6px 0;
+	padding-left: 40px;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+}	
+
+.pg-resources .book-title h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 20px 0px 20px 0px; 
+	background-color: #9ca094;
+	width: 200px;	
+	text-align: center;
+}
+
+.pg-resources .book-title {
+	width: 200px;	
+}
+
+.pg-resources .book-title ul {
+	background-color: rgba(0,0,0,0.1);
+	padding: 20px 10px 0 10px;
+
+}
+
+.pg-resources .book-title li{
+	padding-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: url(../images/bullet-point.png);
+	background-size: 10px;
+	background-repeat: no-repeat;
+	text-indent: 20px;
+}
+
+.pg-resources .book-title a {
+	background-image: url(../images/2015twd-compass-website-icon-chain1.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	background-color: rgba(225,225,225,0.2);
+	padding: 6px 0;
+	padding-left: 40px;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+}	
+
+.pg-resources .program-title h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 20px 0px 20px 0px; 
+	background-color: #9ca094;
+	width: 200px;	
+	text-align: center;
+}
+
+.pg-resources .program-title {
+	width: 200px;	
+}
+
+.pg-resources .program-title ul {
+	background-color: rgba(0,0,0,0.1);
+	padding: 20px 10px 0 10px;
+
+}
+
+.pg-resources .program-title li{
+	padding-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: url(../images/bullet-point.png);
+	background-size: 10px;
+	background-repeat: no-repeat;
+	text-indent: 20px;
+}
+
+.pg-resources .program-title a {
+	background-image: url(../images/2015twd-compass-website-icon-chain1.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	background-color: rgba(225,225,225,0.2);
+	padding: 6px 0;
+	padding-left: 40px;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+}	
+
+
+.pg-resources #server-access .server-list{
+	float: left;
+	margin-right: 30px;	
+}
+
+.pg-resources #server-access .server-list h3 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.pg-resources #server-access .server-list a {
+	text-decoration: none;
+}
+
+.pg-resources #server-access .server-list li {
+	
+	margin-bottom: 20px;
+}
+
+.pg-resources #server-access .server-description {
+	float: left;
+	width: 75%;	
+}
+
+.pg-resources #server-access .server-description h3 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.pg-resources #server-access .server-description  li {
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 20px;	
+	margin-bottom: 20px;
+}
+
+.pg-resources #server-access .server-description ul > ul li{
+	padding-left: 40px;
+}
+
+.pg-resources #server-access .server-description  p {
+	margin-bottom: 30px;	
+}
+
+.pg-resources #server-access .server-description img {
+	margin-bottom: 20px;
+}
+
+.pg-resources h4 {
+	font-weight: bold;
+	margin-bottom: 20px;	
+}
+/* End of Resources Style */
+
+/* Contact Style */
+.pg-contact section > div:last-child > div{
+	width: 80%;
+}
+
+.pg-contact section > div:last-child > div > div {
+	width: calc((100% - 6%) / 3);
+	margin-right: 3%;
+	margin-bottom: 4%;
+}
+
+.pg-contact section > div:last-child > div > div:nth-child(3n) {
+	margin-right: 0;
+}
+
+.pg-contact section > div:last-child > div > div h3 {
+	padding: 16px;
+	background-color: rgba(225, 225, 225, 0.2);
+	font-size: 18px;
+	text-align: center;
+}
+
+.pg-contact section > div:last-child > div > div ul {
+	padding: 20px 10px;
+	background-color: rgba(0,0,0,0.1);
+	min-height: 270px;
+}
+
+.pg-contact section > div:last-child > div > div li {
+	margin-bottom: 10px;
+	text-indent: 20px;
+}
+
+.pg-contact .contacts-area > div:not(:last-child) > div ul li {
+	background-image: url(../images/2015twd-compass-website-icon-Apple.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+}
+
+.pg-contact .contacts-area > div:not(:last-child) > div ul li:first-child{
+	background-image: url(../images/2015twd-compass-website-icon-Ribbon.png);
+}
+
+.pg-contact .contacts-area > div:not(:last-child) > div ul li:nth-child(2){
+	background-image: url(../images/2015twd-compass-website-icon-earth.png);
+}
+
+.pg-contact .contacts-area > div:not(:last-child) > div ul li:nth-child(3){
+	background-image: url(../images/2015twd-compass-website-icon-Education.png);
+}
+
+.pg-contact .contacts-area > div:not(:last-child) > div ul li:nth-child(2){
+	background-image: url(../images/2015twd-compass-website-icon-earth.png);
+}
+
+.pg-contact .contacts-area > div:not(:last-child) > div > a {
+	background-image: url(../images/2015twd-compass-website-icon-email.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	background-color: rgba(225,225,225,0.2);
+	padding: 6px 0;
+	padding-left: 40px;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+}
+
+.pg-contact .contacts-area > div:not(:last-child) > div > a:hover,
+.pg-contact .contacts-area > div:not(:last-child) > div > a:focus,
+.pg-contact .contacts-area > div:not(:last-child) > div > a:active {
+	text-decoration: underline;
+}
+
+.pg-contact .contacts-area > div:last-child p {
+	background-image: url(../images/2015twd-compass-website-icon-Phone.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0.1);
+	height: 30px;
+	padding: 7px 0;
+	text-indent: 40px;
+}
+/* End of Contact Style */
